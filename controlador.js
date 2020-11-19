@@ -26,7 +26,7 @@
          
           var url = 'https://api.telegram.org/bot1226812462:AAFBjHsd3NJtRwXt304buRYfeW-0t_OGi7Q/sendMessage';
           data = {
-            "chat_id": 837689725,
+            "chat_id": 877561784,
             "text": this.mensaje,
             }
 
