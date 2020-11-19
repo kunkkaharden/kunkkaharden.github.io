@@ -1,18 +1,26 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html>
- <head>
-     <script src="vue.js"> </script>
- </head>   
-<body>
-    <div id ="app">
-        <input type="text" v-model="mensaje">
-        {{mensaje}}
-        <h1>Hello World</h1>
-        <p>wiii</p>
-        
+<head>
+<script src="vue.js"></script>
+
+<link REL=StyleSheet HREF="estilo.css" TYPE="text/css" MEDIA=screen></link>
+
+<title>Mi Página</title>
+</head>
+<body >
+    <div id = app class="marco" >
+     <ul>
+         <li v-for="i in mensajes">
+             {{i}}
+         </li>
+     </ul>   
+     <input type="text" v-model ="mensaje">
+     <input type="button" @click ="update" value ="Actualizar"></input>
+     <input type="button" @click ="enviar" value ="Enviar"></input>
+     
+    
     </div>
-
-
-<script src="controlador.js"> </script>
-</body>
+<script src="in2.js"></script>
+     
+</body    
 </html>
