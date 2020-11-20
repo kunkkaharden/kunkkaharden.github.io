@@ -1,0 +1,83 @@
+.marco{
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 40%;
+    padding-bottom: 20px;
+}
+input{
+    width: 100%;
+}
+#primer{
+    margin-top: 10px;
+    
+    
+}
+.color{
+    color: blue;
+}
+.verde{
+    background: green;
+}
+.azul{
+     background: blue; 
+}
+.botones{
+     display: flex;
+}
+.check{
+     float: left;
+     margin-left: 4px;
+     margin-top: 22px;
+}
+/* .fade-enter-active, .fade-leave-active {
+    transition: opacity 2s;
+    transition: background 2s;
+   
+    
+    
+  }
+  .fade-enter{
+    background: blue;
+  }
+
+  .fade-leave{
+    background: red;
+  }
+  .fade-leave-to{
+    background: green;
+  } */
+  /* .slide-fade-enter-active {
+    transition: all .3s ease;
+  }
+  .slide-fade-leave-active {
+    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  }
+  .slide-fade-enter
+   {
+    transform: translateX(-10px);
+   
+    color: green;
+  }
+  .slide-fade-leave-to
+  {
+   transform: translateX(20px);
+   color: red;
+  
+ } */
+ .bounce-enter-active {
+    animation: bounce-in .5s;
+  }
+  .bounce-leave-active {
+    animation: bounce-in .5s reverse;
+  }
+  @keyframes bounce-in {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
