@@ -1,100 +1,14 @@
-<!Doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<script src="vue.js"></script>
-<style type="text/css" >
-    .marco{
-        width: 50%;
-	background:     rgb(231, 235, 240) none repeat scroll 0% 0%;
-
-	/*border-radius: 10px 10px 0 0;*/
-           
-            margin-left: 25%;
-            margin-top: 70px;
-            box-shadow: 0 0 10px 0px;
-            padding: 10px;
-   height: 80%;
-}
-li{
-    list-style: none;
-}
-html {
-	background: #5682a3;
-}
-  
- 
-  #enviar{
-      width: 100%;
-     display: flex;
-     position: fixed;
-     z-index: 9999; 
-     height: 70px;
-     box-shadow: 0 0 4px 0;
-     background: #5682a3;
-  }
-  body{
-      margin: 0px;
-  }
-  #mensaje{
-      background:  rgb(175, 204, 240) none repeat scroll 0% 0%; ;
-      border-radius: 5px;
-      padding: 5px;
-      
-        margin-bottom: 10px;
-      width: 80%;
-
-  }
-  #texto{
-      border-radius: 20px;
-      margin: 5px;
-      
-      width: 70%;
-  }
-  #enviar >  input{
-    height: 40px;
-  }
-  p{
-      margin: 0px;
-  }
-  .main{
-      display: flex;
-      flex-direction: column;
-  }
-</style>
-
-<title>Mi Página</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev</title>
 </head>
-<body >
-    <div id = app class="main" >
-        <div class ="marco">
-            <ul >
-                <li v-for="i in mensajes">
-                    <div id ="mensaje">
-                        <p  id ="origen">
-                            {{i.name}}
-                        </p>
-                        <p id="texto">
-                            {{i.text}}
-                        </p>   
-                    
-                    </div>
-                    
-                </li>
-            </ul>  
-        </div>
-    
-
-     
-     <div id ="enviar">
-        <input id="texto" type="text" v-model ="mensaje">
-        <input type="button" @click ="enviar" value ="Enviar"></input>
-        <input type="button" @click ="update" value ="Update"></input>
-
-    </div>
-    
-    
-    </div>
-<script src="controlador.js"></script>
-     
-</body    
+<body>
+<script>
+    document.location('https://kunkkaharden.github.io/dev/');
+</script>
+</body>
 </html>
